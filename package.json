@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "name": "gatsby-theme-example-component-extending",
+  "version": "1.0.0",
+  "workspaces": [
+    "site",
+    "gatsby-theme-tomato",
+    "gatsby-theme-rebeccapurple"
+  ]
+}
