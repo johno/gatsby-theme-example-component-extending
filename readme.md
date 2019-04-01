@@ -14,8 +14,9 @@ component from Tomato and uses that to wrap its own purple box. It overrides
 the Tomato box via component shadowing.
 
 The site installs and uses gatsby-theme-rebeccapurple. It extends the
-RebeccaPurple box by importing it and wrapping it with its own papayawhip
-box (also via component shadowing).
+the Tomato box yet again by shadowing the component (`src/gatsby-theme-tomato/box.js`).
+It extends the RebeccaPurple box by importing it and wrapping it with
+its own papayawhip box.
 
 ## Why?
 
